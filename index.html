@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Md. Nakibul Islam — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ─── CANVAS BACKGROUND ─── -->
+<canvas id="bg-canvas"></canvas>
+
+<!-- ─── CURSOR ─── -->
+<div id="cursor"></div>
+<div id="cursor-follower"></div>
+
+<!-- ─── NAV ─── -->
+<nav id="navbar">
+  <a href="#home" class="logo">N<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="#home" class="nav-link active">Home</a></li>
+    <li><a href="#about" class="nav-link">About</a></li>
+    <li><a href="#projects" class="nav-link">Projects</a></li>
+    <li><a href="#blog" class="nav-link">Blog</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ─── MOBILE MENU ─── -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#home" class="mob-link">Home</a>
+  <a href="#about" class="mob-link">About</a>
+  <a href="#projects" class="mob-link">Projects</a>
+  <a href="#blog" class="mob-link">Blog</a>
+  <a href="#contact" class="mob-link">Contact</a>
+</div>
+
+<!-- ═══════════════════════════
+     SECTION: HOME
+═══════════════════════════ -->
+<section id="home" class="section hero-section">
+  <div class="hero-content">
+    <p class="hero-tag animate-in">👋 Computer Science Graduate · Web Developer</p>
+    <h1 class="hero-title animate-in delay-1">
+      Md. Nakibul<br /><span class="accent">Islam</span>
+    </h1>
+    <p class="hero-sub animate-in delay-2">
+      Crafting elegant digital experiences with Laravel, JavaScript & modern web technologies.
+      Passionate about clean code & beautiful interfaces.
+    </p>
+    <div class="hero-cta animate-in delay-3">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="#contact" class="btn-ghost">Get in Touch</a>
+    </div>
+    <div class="hero-stats animate-in delay-4">
+      <div class="stat"><span class="stat-num">4+</span><span class="stat-label">Years IT Experience</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">3.37</span><span class="stat-label">CGPA (CSE)</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Tech Skills</span></div>
+    </div>
+  </div>
+  <div class="hero-visual animate-in delay-2">
+    <div class="photo-frame">
+      <div class="photo-ring ring-1"></div>
+      <div class="photo-ring ring-2"></div>
+      <div class="photo-ring ring-3"></div>
+      <img src="assets/nakibul.png" alt="Md. Nakibul Islam" class="hero-photo" />
+      <div class="photo-glow"></div>
+    </div>
+    <div class="floating-badge badge-1">
+      <span class="badge-icon">⚡</span>
+      <span>PHP Dev</span>
+    </div>
+    <div class="floating-badge badge-2">
+      <span class="badge-icon">🌐</span>
+      <span>IT Support</span>
+    </div>
+    <div class="floating-badge badge-3">
+      <span class="badge-icon">🛠️</span>
+      <span>Open to Work</span>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ═══════════════════════════
+     SECTION: ABOUT
+═══════════════════════════ -->
+<section id="about" class="section">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-label">Who I Am</span>
+      <h2 class="section-title">About <span class="accent">Me</span></h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="about-lead">
+          Recent CSE graduate from Dhaka International University with hands-on experience in IT support and a growing passion for web development.
+        </p>
+        <p>
+          I've spent 4+ years working as a Computer Technician at Three Star International, diagnosing hardware/software issues and delivering effective solutions. Now I'm channeling that technical foundation into building clean, responsive web applications.
+        </p>
+        <p>
+          I'm proficient in PHP, MySQL, HTML5, CSS3, and JavaScript — and I'm eager to contribute as a Web Developer intern or junior, learning from real-world collaborative projects.
+        </p>
+        <div class="about-links">
+          <a href="mailto:nakibul738@gmail.com" class="about-link">📧 nakibul738@gmail.com</a>
+          <a href="https://github.com/NakibulDIU" target="_blank" class="about-link">🐙 GitHub</a>
+          <a href="https://linkedin.com/in/md-nakibul-islam-diu" target="_blank" class="about-link">💼 LinkedIn</a>
+        </div>
+      </div>
+      <div class="skills-grid">
+        <h3 class="skills-title">Technical Skills</h3>
+        <div class="skill-pills">
+          <span class="pill pill-web">PHP</span>
+          <span class="pill pill-web">MySQL</span>
+          <span class="pill pill-web">HTML5</span>
+          <span class="pill pill-web">CSS3</span>
+          <span class="pill pill-web">JavaScript</span>
+          <span class="pill pill-it">IT Support</span>
+          <span class="pill pill-it">Hardware Repair</span>
+          <span class="pill pill-it">Router Config</span>
+          <span class="pill pill-tool">GitHub</span>
+          <span class="pill pill-tool">VS Code</span>
+          <span class="pill pill-tool">MS Office</span>
+          <span class="pill pill-tool">Photoshop</span>
+        </div>
+        <div class="skill-bars">
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>PHP / MySQL</span><span>65%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:65%"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>HTML / CSS</span><span>80%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:80%"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>JavaScript</span><span>70%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:70%"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="skill-bar-label"><span>IT Support</span><span>90%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:90%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education Timeline -->
+    <div class="edu-timeline">
+      <h3 class="skills-title" style="margin-bottom:2rem">Education</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2021–2025</span>
+            <h4>B.Sc. Computer Science & Engineering</h4>
+            <p>Dhaka International University (DIU) · CGPA: 3.37</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2020</span>
+            <h4>Higher Secondary Certificate (HSC)</h4>
+            <p>Dhaka Model Degree College · GPA: 4.08</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2018</span>
+            <h4>Dakhil</h4>
+            <p>Kazipara Siddiquia Fazil Madrasah · GPA: 3.78</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════
+     SECTION: PROJECTS
+═══════════════════════════ -->
+<section id="projects" class="section section-dark">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-label">My Work</span>
+      <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+    </div>
+    <div class="projects-grid">
+
+      <article class="project-card project-card--featured">
+        <div class="project-card__bg" style="--hue:220"></div>
+        <div class="project-card__content">
+          <div class="project-meta">
+            <span class="project-tag">PHP</span>
+            <span class="project-tag">MySQL</span>
+            <span class="project-tag">HTML/CSS</span>
+          </div>
+          <h3>Trip Registration Web App</h3>
+          <p>A responsive web-based form for managing student trip registrations. Implemented secure data handling with prepared statements in PHP, connected to a MySQL database to store participant details.</p>
+          <div class="project-features">
+            <span>✓ Prepared SQL Statements</span>
+            <span>✓ Responsive Design</span>
+            <span>✓ MySQL Integration</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/NakibulDIU" target="_blank" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+        <div class="project-card__visual">
+          <div class="browser-mockup">
+            <div class="browser-bar"><span></span><span></span><span></span></div>
+            <div class="browser-body">
+              <div class="mock-form">
+                <div class="mock-label"></div>
+                <div class="mock-input"></div>
+                <div class="mock-label short"></div>
+                <div class="mock-input"></div>
+                <div class="mock-btn"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card__bg" style="--hue:160"></div>
+        <div class="project-card__content">
+          <div class="project-meta">
+            <span class="project-tag">HTML</span>
+            <span class="project-tag">CSS</span>
+            <span class="project-tag">JavaScript</span>
+          </div>
+          <h3>Personal Portfolio Website</h3>
+          <p>A responsive single-page portfolio showcasing projects, skills, and contact information. Built with clean semantic HTML and modern CSS animations.</p>
+          <div class="project-features">
+            <span>✓ Single Page Layout</span>
+            <span>✓ Mobile Responsive</span>
+            <span>✓ Smooth Animations</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/NakibulDIU" target="_blank" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+        <div class="project-card__visual">
+          <div class="browser-mockup">
+            <div class="browser-bar"><span></span><span></span><span></span></div>
+            <div class="browser-body portfolio-mock">
+              <div class="mock-hero-strip"></div>
+              <div class="mock-grid-row">
+                <div class="mock-card-sm"></div>
+                <div class="mock-card-sm"></div>
+                <div class="mock-card-sm"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card__bg" style="--hue:30"></div>
+        <div class="project-card__content">
+          <div class="project-meta">
+            <span class="project-tag">IT Support</span>
+            <span class="project-tag">Hardware</span>
+          </div>
+          <h3>IT Support & Repair — 4+ Years</h3>
+          <p>Diagnosed and repaired hardware & software issues at Three Star International. Assisted in system upgrades, updates and maintenance. Maintained high customer satisfaction through timely solutions.</p>
+          <div class="project-features">
+            <span>✓ Hardware Diagnostics</span>
+            <span>✓ System Maintenance</span>
+            <span>✓ Customer Support</span>
+          </div>
+          <div class="project-links">
+            <span class="proj-link-disabled">Aug 2020 – Mar 2025</span>
+          </div>
+        </div>
+        <div class="project-card__visual">
+          <div class="circuit-art">
+            <div class="circuit-node n1"></div>
+            <div class="circuit-node n2"></div>
+            <div class="circuit-node n3"></div>
+            <div class="circuit-line l1"></div>
+            <div class="circuit-line l2"></div>
+            <div class="circuit-line l3"></div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════
+     SECTION: BLOG
+═══════════════════════════ -->
+<section id="blog" class="section">
+  <div class="section-inner">
+    <div class="section-header">
+      <span class="section-label">Tech Reads</span>
+      <h2 class="section-title">Dev <span class="accent">Blog</span></h2>
+      <p class="section-desc">Curated articles on JavaScript, Laravel & modern web development</p>
+    </div>
+    <div class="blog-grid" id="blog-grid">
+      <!-- Populated by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════
+     SECTION: CONTACT
+═══════════════════════════ -->
+<section id="contact" class="section section-dark">
+  <div class="section-inner contact-inner">
+    <div class="section-header">
+      <span class="section-label">Let's Connect</span>
+      <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p class="contact-intro">I'm actively seeking internship or entry-level opportunities in Web Development or IT Support. Let's discuss how I can contribute to your team!</p>
+        <div class="contact-cards">
+          <a href="mailto:nakibul738@gmail.com" class="contact-card">
+            <span class="cc-icon">📧</span>
+            <div>
+              <small>Email</small>
+              <strong>nakibul738@gmail.com</strong>
+            </div>
+          </a>
+          <a href="tel:+8801616235317" class="contact-card">
+            <span class="cc-icon">📱</span>
+            <div>
+              <small>Phone</small>
+              <strong>+880 1616 235317</strong>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/md-nakibul-islam-diu" target="_blank" class="contact-card">
+            <span class="cc-icon">💼</span>
+            <div>
+              <small>LinkedIn</small>
+              <strong>md-nakibul-islam-diu</strong>
+            </div>
+          </a>
+          <a href="https://github.com/NakibulDIU" target="_blank" class="contact-card">
+            <span class="cc-icon">🐙</span>
+            <div>
+              <small>GitHub</small>
+              <strong>NakibulDIU</strong>
+            </div>
+          </a>
+          <div class="contact-card">
+            <span class="cc-icon">📍</span>
+            <div>
+              <small>Location</small>
+              <strong>Kafrul, Dhaka Cantonment, BD</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="john@example.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" placeholder="Job Opportunity / Collaboration..." />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Tell me about the opportunity..." required></textarea>
+        </div>
+        <button type="submit" class="btn-primary full-width" id="submit-btn">
+          <span>Send Message</span>
+          <span class="btn-arrow">→</span>
+        </button>
+        <div class="form-success" id="form-success">
+          ✅ Message sent! I'll get back to you soon.
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer class="footer">
+  <p>© 2025 Md. Nakibul Islam · Built with ❤️ in Dhaka, Bangladesh</p>
+  <p class="footer-stack">HTML · CSS · JavaScript · Three.js</p>
+</footer>
+
+<!-- ─── SCRIPTS ─── -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
