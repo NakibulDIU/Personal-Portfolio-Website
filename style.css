@@ -542,9 +542,26 @@ body:hover #cursor-follower { opacity: 1; }
 .projects-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
   gap: 1.5rem;
 }
+
+/* Dashboard mockup */
+.mock-dashboard { display: flex; flex-direction: column; gap: 8px; }
+.mock-dash-nav { height: 20px; background: var(--surface2); border-radius: 4px; margin-bottom: 4px; }
+.mock-dash-row { display: flex; gap: 6px; }
+.mock-dash-stat { flex: 1; height: 36px; border-radius: 8px; }
+.mock-dash-table { display: flex; flex-direction: column; gap: 5px; margin-top: 4px; }
+.mock-row { height: 10px; background: var(--surface2); border-radius: 3px; }
+.mock-row.short { width: 65%; }
+
+/* Shop mockup */
+.mock-shop-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.mock-product { height: 44px; background: var(--surface2); border-radius: 6px; }
+
+/* Blog mockup */
+.mock-blog-rows { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
+.mock-blog-row { height: 12px; background: var(--surface2); border-radius: 3px; }
+.mock-blog-row.short { width: 55%; }
 .project-card {
   background: var(--surface);
   border: 1px solid var(--border);

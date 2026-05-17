@@ -12,7 +12,7 @@ portfolio/
 ├── style.css           ← All styles, CSS variables, responsive
 ├── main.js             ← Three.js 3D background + all interactions
 ├── assets/
-│   └──                 ← Your photo
+│   └── nakibul.jpg     ← Your photo (already included)
 └── README.md           ← This file
 ```
 
@@ -25,7 +25,7 @@ This is a **zero-build** project. No Node.js, no Webpack, no installation requir
 ### Option A — Live Server (VS Code) ✅ Recommended
 1. Install VS Code extension: **Live Server** by Ritwick Dey
 2. Right-click `index.html` → **Open with Live Server**
-
+3. Opens at `http://127.0.0.1:5500`
 
 ### Option B — Python (built into macOS/Linux)
 ```bash
@@ -131,6 +131,43 @@ Edit `main.js` → `BLOG_POSTS` array:
    });
    ```
 
+---
+
+## 🚀 Deployment
+
+### Netlify (Recommended — Free)
+1. Go to [netlify.com](https://netlify.com) → New site
+2. Drag & drop the `portfolio/` folder onto the Netlify drop zone
+3. Done! Live in ~30 seconds with a free HTTPS URL
+
+### GitHub Pages (Free)
+```bash
+# 1. Create a GitHub repo named: yourusername.github.io
+git init
+git add .
+git commit -m "Initial portfolio"
+git remote add origin https://github.com/NakibulDIU/nakibuldiu.github.io.git
+git push -u origin main
+# 2. Go to repo Settings → Pages → Deploy from branch: main / root
+```
+
+### Vercel (Free)
+```bash
+npm install -g vercel
+cd portfolio/
+vercel
+# Follow the CLI prompts
+```
+
+---
+
+## 🛠️ Development Best Practices
+
+1. **Use Live Server** for hot-reload during development
+2. **Keep assets small** — compress photos with [squoosh.app](https://squoosh.app)
+3. **Test on mobile** using Chrome DevTools responsive mode
+4. **Before deploying**: Run [PageSpeed Insights](https://pagespeed.web.dev/) on your URL
+5. **Add a custom domain** via Netlify/Vercel settings after deploying
 
 ---
 
